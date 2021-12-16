@@ -1,0 +1,22 @@
+com/kili/filepick/databinding/ActivityMainBinding.java
+ com.kili.filepick.databinding.ActivityMainBinding
+com/kili/filepick/BuildConfig.java
+ com.kili.filepick.BuildConfig
+com/kili/filepick/databinding/ActivityMainBindingImpl.java
+ com.kili.filepick.databinding.ActivityMainBindingImpl
+com/kili/filepicker/BR.java
+ com.kili.filepicker.BR
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/kili/filepick/DataBinderMapperImpl.java
+ com.kili.filepick.DataBinderMapperImpl
+ com.kili.filepick.DataBinderMapperImpl$InnerBrLookup
+ com.kili.filepick.DataBinderMapperImpl$InnerLayoutIdLookup
+com/kili/filepick/BR.java
+ com.kili.filepick.BR
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/kili/filepick/DataBindingTriggerClass.java
+ com.kili.filepick.DataBindingTriggerClass

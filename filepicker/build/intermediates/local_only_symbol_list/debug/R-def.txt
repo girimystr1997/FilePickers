@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_camera
+drawable ic_gallery
+drawable ic_pdf
+drawable ic_photos
+drawable ic_videos
+drawable popup_background
+id btn_ok
+id camera
+id first
+id pdf
+id second
+id third
+id tv_message
+id video
+layout bottom_sheet_dialog
+layout file_alert
+style alertdialog
+xml file_paths
