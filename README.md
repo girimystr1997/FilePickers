@@ -1,7 +1,18 @@
 # FilePickers
 Android Library for the Files Selector.
 
-//for Kotlin
+###  build.gradle
+
+    implementation 'com.github.girimystr1997:FilePickers:v1.0.0'
+
+### settings.gradle
+
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+
+
+### Kotlin
 
 FilePickerBuilder:
                 
@@ -35,4 +46,37 @@ Callback:
                 }
             }
         }
+
+### Java
+
+FilePickerBuilder:
+
+    new FilePickerBuilder()
+                .showImages(true)
+                .showPdf(true)
+                .showVideos(true)
+                .videoQuality(0)
+                .start(this,activityResultLauncher);
+                
+Callback:
+
+    ActivityResultLauncher<Intent> activityResultLauncher = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
+            @Override
+            public void onActivityResult(ActivityResult result) {
+                if (result.getResultCode() == Activity.RESULT_OK){
+                    Bundle bundle = result.getData().getBundleExtra("FilePath");
+                    FileModel fileModel = bundle.getParcelable("FilePath");
+                    if (fileModel != null) {
+                        if (fileModel.getDisplayname().endsWith("pdf")||fileModel.getDisplayname().endsWith("PDF")){
+                            //pdf
+                        }else if (fileModel.getDisplayname().endsWith("mp4")||fileModel.getDisplayname().endsWith("3gp")){
+                            //videos
+                        }else {
+                            //images
+                        }
+                    }
+                }
+            }
+        });
+
 
