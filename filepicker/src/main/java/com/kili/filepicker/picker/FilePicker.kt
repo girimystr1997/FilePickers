@@ -339,16 +339,14 @@ class FilePicker:AppCompatActivity() {
     var resultCameraLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
         when (it.resultCode) {
             Activity.RESULT_OK -> {
-                if (it.data != null){
-                    val filee = File(currentPhotoPath)
-                    val fileModel = FileModel(filee.name,filee.path,filee.absolutePath,filee.name,0)
-                    val intent = Intent()
-                    val bundle = Bundle()
-                    bundle.putParcelable("FilePath",fileModel)
-                    intent.putExtra("FilePath",bundle)
-                    setResult(RESULT_OK,intent)
-                    finish()
-                }
+                val filee = File(currentPhotoPath)
+                val fileModel = FileModel(filee.name,filee.path,filee.absolutePath,filee.name,0)
+                val intent = Intent()
+                val bundle = Bundle()
+                bundle.putParcelable("FilePath",fileModel)
+                intent.putExtra("FilePath",bundle)
+                setResult(RESULT_OK,intent)
+                finish()
             }
             else->{
                 val intent = Intent()
@@ -362,16 +360,14 @@ class FilePicker:AppCompatActivity() {
     var resultVideoLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){
         when (it.resultCode) {
             Activity.RESULT_OK -> {
-                if (it.data != null){
-                    val filee = File(currentVideoPath)
-                    val fileModel = FileModel(filee.name,filee.path,filee.absolutePath,filee.name,0)
-                    val intent = Intent()
-                    val bundle = Bundle()
-                    bundle.putParcelable("FilePath",fileModel)
-                    intent.putExtra("FilePath",bundle)
-                    setResult(RESULT_OK,intent)
-                    finish()
-                }
+                val filee = File(currentVideoPath)
+                val fileModel = FileModel(filee.name,filee.path,filee.absolutePath,filee.name,0)
+                val intent = Intent()
+                val bundle = Bundle()
+                bundle.putParcelable("FilePath",fileModel)
+                intent.putExtra("FilePath",bundle)
+                setResult(RESULT_OK,intent)
+                finish()
             }
             else->{
                 val intent = Intent()
