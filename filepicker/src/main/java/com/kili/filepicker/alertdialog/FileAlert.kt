@@ -18,7 +18,7 @@ class FileAlert(context: Context, message: String, dialogClickListener: DialogCl
         tvMessage.text = message
         val btnOk: TextView = dialog.findViewById<View>(R.id.btn_ok) as TextView
         btnOk.setOnClickListener {
-            dialogClickListener.callback(true);
+            dialogClickListener.callback(true)
             dialog.dismiss()
         }
         dialog.show()

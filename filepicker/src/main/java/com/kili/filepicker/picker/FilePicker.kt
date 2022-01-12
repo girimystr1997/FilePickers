@@ -7,12 +7,14 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap.CompressFormat
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.FileProvider
@@ -22,11 +24,13 @@ import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.kili.filepicker.R
 import com.kili.filepicker.alertdialog.FileAlert
 import com.kili.filepicker.databinding.FilepickerActivityBinding
+import com.kili.filepicker.func.CustomProgressbar
 import com.kili.filepicker.func.Func
 import com.kili.filepicker.models.FileModel
 import com.kili.filepicker.utils.Variables
 import java.io.ByteArrayOutputStream
 import java.io.File
+import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.text.SimpleDateFormat
 import java.util.*
@@ -35,9 +39,9 @@ import java.util.*
 class FilePicker : AppCompatActivity() {
 
 
-    private lateinit var currentPhotoPath: String
-    private lateinit var currentVideoPath: String
-    private lateinit var fileModel: FileModel
+    lateinit var currentPhotoPath: String
+    lateinit var currentVideoPath: String
+    lateinit var fileModel: FileModel
 
     private val permissions = arrayOf(
         Manifest.permission.CAMERA,
@@ -61,6 +65,7 @@ class FilePicker : AppCompatActivity() {
         }
 
         dataBinding.btnOk.setOnClickListener {
+            CustomProgressbar.showProgressBar(this,false)
             dataBinding.CropImageView.croppedImage
             val bos = ByteArrayOutputStream()
             dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
@@ -69,13 +74,13 @@ class FilePicker : AppCompatActivity() {
             fos.write(bitMapData)
             fos.flush()
             fos.close()
-
             val intent = Intent()
             val bundle = Bundle()
             bundle.putParcelable("FilePath", fileModel)
             intent.putExtra("FilePath", bundle)
             setResult(RESULT_OK, intent)
             finish()
+            CustomProgressbar.hideProgressBar()
         }
         dataBinding.btnCancel.setOnClickListener {
             showBottomSheetDialog()
@@ -237,6 +242,7 @@ class FilePicker : AppCompatActivity() {
             }
         })
     }
+
 
     @SuppressLint("QueryPermissionsNeeded")
     private fun openCamera() {

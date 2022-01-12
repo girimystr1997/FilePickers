@@ -16,6 +16,7 @@
         <entry key="filepicker/src/main/res/layout/crop__layout_done_cancel.xml" value="0.15" />
         <entry key="filepicker/src/main/res/layout/file_alert.xml" value="0.20052083333333334" />
         <entry key="filepicker/src/main/res/layout/filepicker_activity.xml" value="0.22" />
+        <entry key="filepicker/src/main/res/layout/progress_dialog.xml" value="0.25" />
         <entry key="filepicker/src/main/res/xml/file_paths.xml" value="0.1" />
       </map>
     </option>

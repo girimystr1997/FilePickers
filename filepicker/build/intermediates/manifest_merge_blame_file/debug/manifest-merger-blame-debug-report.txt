@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.kili.filepicker" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="23"
+7-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml
+8        android:targetSdkVersion="31" />
+8-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.CAMERA" />
+10-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:6:5-64
+10-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:6:22-62
+11    <uses-permission
+11-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:7:5-8:40
+12        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+12-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:7:22-79
+13        tools:ignore="ScopedStorage" />
+13-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:8:9-37
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:9:5-80
+14-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:10:5-79
+15-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:10:22-77
+16
+17    <queries>
+17-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:12:5-20:15
+18        <package android:name="com.kili.filepicker" />
+18-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:13:9-55
+18-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:13:18-52
+19
+20        <intent>
+20-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:14:9-16:18
+21            <action android:name="android.media.action.IMAGE_CAPTURE" />
+21-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:15:13-73
+21-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:15:21-70
+22        </intent>
+23        <intent>
+23-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:17:9-19:18
+24            <action android:name="android.intent.action.GET_CONTENT" />
+24-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:18:13-71
+24-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:18:21-69
+25        </intent>
+26    </queries>
+27
+28    <application android:requestLegacyExternalStorage="true" >
+28-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:22:5-34:19
+28-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:23:9-52
+29        <activity android:name="com.kili.filepicker.picker.FilePicker" />
+29-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:24:9-54
+29-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:24:19-52
+30
+31        <provider
+31-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:25:9-33:20
+32            android:name="androidx.core.content.FileProvider"
+32-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:26:13-62
+33            android:authorities="${applicationId}.provider"
+33-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:27:13-60
+34            android:exported="false"
+34-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:28:13-37
+35            android:grantUriPermissions="true" >
+35-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:29:13-47
+36            <meta-data
+36-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:30:13-32:54
+37                android:name="android.support.FILE_PROVIDER_PATHS"
+37-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:31:17-67
+38                android:resource="@xml/file_paths" />
+38-->/home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:32:17-51
+39        </provider>
+40    </application>
+41
+42</manifest>

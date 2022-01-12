@@ -20,30 +20,34 @@ class Func {
         var displayname = ""
         var size = 0
         val contentResolver = context.contentResolver
-        if (contentResolver.equals(null)){
+        if (contentResolver.equals(null)) {
             return null
         }
         contentResolver.query(
-            uridata, null, null, null, null, null)?.use {
-                if (it.moveToFirst()){
-                   displayname = it.getString(it.getColumnIndex(OpenableColumns.DISPLAY_NAME))
-                   size = it.getColumnIndex(OpenableColumns.SIZE)
-                }
+            uridata, null, null, null, null, null
+        )?.use {
+            if (it.moveToFirst()) {
+                displayname = it.getString(it.getColumnIndex(OpenableColumns.DISPLAY_NAME))
+                size = it.getColumnIndex(OpenableColumns.SIZE)
+            }
         }
-        val filepath = context.applicationInfo.dataDir+ File.separator+System.currentTimeMillis()+displayname
+        val filepath =
+            context.applicationInfo.dataDir + File.separator + System.currentTimeMillis() + displayname
         val file = File(filepath)
         try {
             val inputStream = contentResolver.openInputStream(uridata) ?: return null
             val outputStream = FileOutputStream(file)
             val bufferbyte = ByteArray(1024)
             var len: Int
-            while (inputStream.read(bufferbyte).also { len = it } > 0) outputStream.write(bufferbyte, 0, len)
+            while (inputStream.read(bufferbyte)
+                    .also { len = it } > 0
+            ) outputStream.write(bufferbyte, 0, len)
             outputStream.close()
             inputStream.close()
-        }catch (e:Exception){
+        } catch (e: Exception) {
             return null
         }
-        return FileModel(file.name,file.path,file.absolutePath,displayname,size,file)
+        return FileModel(file.name, file.path, file.absolutePath, displayname, size, file)
     }
 
     fun getPath(context: Context, uri: Uri): String? {
@@ -80,7 +84,13 @@ class Func {
         }
         return null
     }
-    fun getDataColumn(context: Context, uri: Uri?, selection: String?, selectionArgs: Array<String>?): String? {
+
+    fun getDataColumn(
+        context: Context,
+        uri: Uri?,
+        selection: String?,
+        selectionArgs: Array<String>?
+    ): String? {
         var cursor: Cursor? = null
         val column = "_data"
         val projection = arrayOf(
@@ -101,6 +111,7 @@ class Func {
         }
         return null
     }
+
     private fun isMediaDocument(uri: Uri): Boolean {
         return "com.android.providers.media.documents" == uri.authority
     }
