@@ -16,6 +16,9 @@ MERGED from [androidx.appcompat:appcompat:1.4.0] /home/tsslap22/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/726c672f1debd44021e793f034950511/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/d3d4532116cf994fef3fdeb41b57197e/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/885ba8a2f52d645f5b2a1bd1df85e4b6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/ff6bf8377ca55f27e43da2aa28a82434/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.3.6] /home/tsslap22/.gradle/caches/transforms-3/2bfa689f215060747b9d08622ca3a3fd/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] /home/tsslap22/.gradle/caches/transforms-3/6ba7049bdaba6e12af31d0fa8869afd9/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.0] /home/tsslap22/.gradle/caches/transforms-3/b78a20169e1abef66baa3be7b99ca697/transformed/jetified-appcompat-resources-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -38,6 +41,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/tssl
 MERGED from [androidx.savedstate:savedstate:1.1.0] /home/tsslap22/.gradle/caches/transforms-3/ceafb1115063626ef3a44fe3169e6ef7/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/tsslap22/.gradle/caches/transforms-3/dba5d8e92a3cbd44427337a330ecc7ba/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/38bda6ff6ae6a0db146931f14210e8f1/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.edmodo:cropper:2.0.0] /home/tsslap22/.gradle/caches/transforms-3/9501cd3bf280cf18ef134366c9d689ad/transformed/jetified-cropper-2.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/4e0b7e9c6caf205ec2e97e36f96cf4f7/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/tsslap22/.gradle/caches/transforms-3/c043d01bf32a2dae2cc01d3dc32ba9c2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/3a40a17f6cfe7f7afaadffb93d43a3f4/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
@@ -79,6 +83,12 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/tsslap22/.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/tsslap22/.gradle/caches/transforms-3/12ad122fcedd50fdfa0d8b6da42b8d22/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/d3d4532116cf994fef3fdeb41b57197e/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/d3d4532116cf994fef3fdeb41b57197e/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/ff6bf8377ca55f27e43da2aa28a82434/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/ff6bf8377ca55f27e43da2aa28a82434/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] /home/tsslap22/.gradle/caches/transforms-3/d560c4a192d5cdf8e7cf8f3d0a64abaa/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
@@ -149,6 +159,12 @@ MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tsslap22/.grad
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/d3d4532116cf994fef3fdeb41b57197e/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/885ba8a2f52d645f5b2a1bd1df85e4b6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/885ba8a2f52d645f5b2a1bd1df85e4b6/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/ff6bf8377ca55f27e43da2aa28a82434/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/ff6bf8377ca55f27e43da2aa28a82434/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.3.6] /home/tsslap22/.gradle/caches/transforms-3/2bfa689f215060747b9d08622ca3a3fd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] /home/tsslap22/.gradle/caches/transforms-3/2bfa689f215060747b9d08622ca3a3fd/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.4] /home/tsslap22/.gradle/caches/transforms-3/6ba7049bdaba6e12af31d0fa8869afd9/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
@@ -193,6 +209,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/tsslap22/.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/tsslap22/.gradle/caches/transforms-3/dba5d8e92a3cbd44427337a330ecc7ba/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/38bda6ff6ae6a0db146931f14210e8f1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/38bda6ff6ae6a0db146931f14210e8f1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.edmodo:cropper:2.0.0] /home/tsslap22/.gradle/caches/transforms-3/9501cd3bf280cf18ef134366c9d689ad/transformed/jetified-cropper-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.edmodo:cropper:2.0.0] /home/tsslap22/.gradle/caches/transforms-3/9501cd3bf280cf18ef134366c9d689ad/transformed/jetified-cropper-2.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/4e0b7e9c6caf205ec2e97e36f96cf4f7/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /home/tsslap22/.gradle/caches/transforms-3/4e0b7e9c6caf205ec2e97e36f96cf4f7/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/tsslap22/.gradle/caches/transforms-3/c043d01bf32a2dae2cc01d3dc32ba9c2/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
@@ -263,6 +281,20 @@ ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepi
 		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-51
 	android:name
 		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

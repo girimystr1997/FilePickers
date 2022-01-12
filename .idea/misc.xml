@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.24166666666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="filepicker/src/main/res/drawable/crop__selectable_background.xml" value="0.23072916666666668" />
         <entry key="filepicker/src/main/res/drawable/ic_camera.xml" value="0.21666666666666667" />
         <entry key="filepicker/src/main/res/drawable/ic_gallery.xml" value="0.21666666666666667" />
         <entry key="filepicker/src/main/res/drawable/ic_pdf.xml" value="0.21666666666666667" />
@@ -11,7 +13,9 @@
         <entry key="filepicker/src/main/res/drawable/ic_videos.xml" value="0.21666666666666667" />
         <entry key="filepicker/src/main/res/drawable/popup_background.xml" value="0.21666666666666667" />
         <entry key="filepicker/src/main/res/layout/bottom_sheet_dialog.xml" value="0.5" />
+        <entry key="filepicker/src/main/res/layout/crop__layout_done_cancel.xml" value="0.15" />
         <entry key="filepicker/src/main/res/layout/file_alert.xml" value="0.20052083333333334" />
+        <entry key="filepicker/src/main/res/layout/filepicker_activity.xml" value="0.22" />
         <entry key="filepicker/src/main/res/xml/file_paths.xml" value="0.1" />
       </map>
     </option>

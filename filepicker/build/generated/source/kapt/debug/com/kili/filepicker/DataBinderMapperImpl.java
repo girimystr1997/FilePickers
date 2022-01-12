@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.kili.filepicker.databinding.BottomSheetDialogBindingImpl;
+import com.kili.filepicker.databinding.FilepickerActivityBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -20,10 +21,13 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_BOTTOMSHEETDIALOG = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_FILEPICKERACTIVITY = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.kili.filepicker.R.layout.bottom_sheet_dialog, LAYOUT_BOTTOMSHEETDIALOG);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.kili.filepicker.R.layout.filepicker_activity, LAYOUT_FILEPICKERACTIVITY);
   }
 
   @Override
@@ -40,6 +44,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new BottomSheetDialogBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for bottom_sheet_dialog is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FILEPICKERACTIVITY: {
+          if ("layout/filepicker_activity_0".equals(tag)) {
+            return new FilepickerActivityBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for filepicker_activity is invalid. Received: " + tag);
         }
       }
     }
@@ -94,10 +104,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
       sKeys.put("layout/bottom_sheet_dialog_0", com.kili.filepicker.R.layout.bottom_sheet_dialog);
+      sKeys.put("layout/filepicker_activity_0", com.kili.filepicker.R.layout.filepicker_activity);
     }
   }
 }

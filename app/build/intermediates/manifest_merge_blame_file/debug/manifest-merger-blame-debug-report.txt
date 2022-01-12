@@ -79,27 +79,44 @@
 45                android:resource="@xml/file_paths" />
 45-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-51
 46        </provider>
-47        <provider
-47-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-49            android:authorities="com.kili.filepick.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-57        </provider>
-58    </application>
-59
-60</manifest>
+47
+48        <activity
+48-->[com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:18.0.1] /home/tsslap22/.gradle/caches/transforms-3/030a596b340f5ecf618ed3dfc35fcac8/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:18.0.0] /home/tsslap22/.gradle/caches/transforms-3/2312c1453282bd8886eb2070e8159f9d/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+59            android:authorities="com.kili.filepick.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

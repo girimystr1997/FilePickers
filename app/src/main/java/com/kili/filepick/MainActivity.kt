@@ -1,6 +1,7 @@
 package com.kili.filepick
 
 import android.app.Activity
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.pdf.PdfRenderer
@@ -8,8 +9,10 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.ParcelFileDescriptor
 import android.view.View
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.FileProvider
 import androidx.databinding.DataBindingUtil
 import com.kili.filepicker.alertdialog.FileAlert
 import com.kili.filepick.databinding.ActivityMainBinding
@@ -69,6 +72,7 @@ class MainActivity : AppCompatActivity() {
                                 dataBinding.imageView2.setImageURI(Uri.fromFile(File(fileModel.filepath!!)))
                                 dataBinding.imageView2.visibility = View.VISIBLE
                                 dataBinding.videoView2.visibility = View.GONE
+
                             }
                         }
                     }

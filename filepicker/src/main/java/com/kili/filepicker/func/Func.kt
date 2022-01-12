@@ -43,7 +43,7 @@ class Func {
         }catch (e:Exception){
             return null
         }
-        return FileModel(file.name,file.path,file.absolutePath,displayname,size)
+        return FileModel(file.name,file.path,file.absolutePath,displayname,size,file)
     }
 
     fun getPath(context: Context, uri: Uri): String? {

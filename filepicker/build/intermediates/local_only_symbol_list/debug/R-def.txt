@@ -6,8 +6,11 @@ drawable ic_pdf
 drawable ic_photos
 drawable ic_videos
 drawable popup_background
+id CropImageView
+id btn_cancel
 id btn_ok
 id camera
+id constraintLayout
 id first
 id pdf
 id second
@@ -16,5 +19,6 @@ id tv_message
 id video
 layout bottom_sheet_dialog
 layout file_alert
+layout filepicker_activity
 style alertdialog
 xml file_paths

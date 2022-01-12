@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_translucent">
+
+        <com.edmodo.cropper.CropImageView
+            android:id="@+id/CropImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            custom:aspectRatioX="5"
+            custom:layout_constraintBottom_toBottomOf="parent"
+            custom:layout_constraintEnd_toEndOf="parent"
+            custom:layout_constraintStart_toStartOf="parent"
+            custom:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            custom:layout_constraintEnd_toEndOf="parent"
+            custom:layout_constraintStart_toStartOf="parent"
+            custom:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:ems="4"
+                android:gravity="center"
+                android:padding="05dp"
+                android:text="Ok"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:visibility="visible"
+                custom:layout_constraintBottom_toBottomOf="parent"
+                custom:layout_constraintEnd_toEndOf="parent"
+                custom:layout_constraintHorizontal_bias="0.5"
+                custom:layout_constraintStart_toEndOf="@+id/btn_cancel"
+                custom:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/transparent"
+                android:ems="4"
+                android:gravity="center"
+                android:padding="05dp"
+                android:text="Cancel"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:visibility="visible"
+                custom:layout_constraintBottom_toBottomOf="parent"
+                custom:layout_constraintEnd_toStartOf="@+id/btn_ok"
+                custom:layout_constraintHorizontal_bias="0.5"
+                custom:layout_constraintStart_toStartOf="parent"
+                custom:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
