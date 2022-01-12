@@ -7,14 +7,12 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap.CompressFormat
 import android.net.Uri
-import android.os.Build
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.FileProvider
@@ -30,7 +28,6 @@ import com.kili.filepicker.models.FileModel
 import com.kili.filepicker.utils.Variables
 import java.io.ByteArrayOutputStream
 import java.io.File
-import java.io.FileInputStream
 import java.io.FileOutputStream
 import java.text.SimpleDateFormat
 import java.util.*
@@ -65,7 +62,7 @@ class FilePicker : AppCompatActivity() {
         }
 
         dataBinding.btnOk.setOnClickListener {
-            CustomProgressbar.showProgressBar(this,false)
+            CustomProgressbar.showProgressBar(this, false)
             dataBinding.CropImageView.croppedImage
             val bos = ByteArrayOutputStream()
             dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
@@ -212,11 +209,44 @@ class FilePicker : AppCompatActivity() {
     private fun openGallery(images: Boolean) {
         if (images) {
             resultMediaImageLauncher.launch(
-                Intent().setAction(Intent.ACTION_PICK).setType("image/*")
+                Intent().setAction(Intent.ACTION_PICK).setType("image/*").also { tpi ->
+                    tpi.resolveActivity(packageManager)?.also {
+                        val photoFile: File? = try {
+                            createImageFile()
+                        } catch (e: Exception) {
+                            null
+                        }
+                        photoFile?.also { file ->
+                            val photoURI: Uri = FileProvider.getUriForFile(
+                                this,
+                                "$packageName.provider",
+                                file
+                            )
+                            tpi.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)
+                        }
+                    }
+                }
             )
         } else {
             resultMediaVideoLauncher.launch(
-                Intent().setAction(Intent.ACTION_PICK).setType("video/*")
+                Intent().setAction(Intent.ACTION_PICK).setType("video/*").also { tpi ->
+                    tpi.resolveActivity(packageManager)?.also {
+                        val videoFile: File? = try {
+                            createVideoFile()
+                        } catch (e: Exception) {
+                            null
+                        }
+                        videoFile?.also { file ->
+                            val videoURI: Uri = FileProvider.getUriForFile(
+                                this,
+                                "$packageName.provider",
+                                file
+                            )
+                            tpi.putExtra(MediaStore.EXTRA_VIDEO_QUALITY, Variables.videoQuality())
+                            tpi.putExtra(MediaStore.EXTRA_OUTPUT, videoURI)
+                        }
+                    }
+                }
             )
         }
     }
@@ -365,6 +395,7 @@ class FilePicker : AppCompatActivity() {
                         val uridata: Uri? = data.data
                         uridata.let { uri ->
                             if (uri != null) {
+                                createImageFile()
                                 val path = Func().getPath(this, uri)
                                 val filee = File(path!!)
                                 fileModel = FileModel(
