@@ -12,6 +12,7 @@ import android.os.Environment
 import android.provider.MediaStore
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -40,9 +41,9 @@ import java.util.*
 class FilePicker : AppCompatActivity() {
 
 
-    lateinit var currentPhotoPath: String
-    lateinit var currentVideoPath: String
-    lateinit var fileModel: FileModel
+    var currentPhotoPath: String = ""
+    var currentVideoPath: String = ""
+    var fileModel: FileModel?=null
 
     private val permissions = arrayOf(
         Manifest.permission.CAMERA,
@@ -72,27 +73,31 @@ class FilePicker : AppCompatActivity() {
                 val bos = ByteArrayOutputStream()
                 dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
                 val bitMapData: ByteArray = bos.toByteArray()
-                val filee = File(currentPhotoPath)
-                fileModel = FileModel(
-                    filee.name,
-                    filee.path,
-                    filee.absolutePath,
-                    filee.name,
-                    0,
-                    filee
-                )
-                val fos = FileOutputStream(fileModel.file)
-                fos.write(bitMapData)
-                fos.flush()
-                fos.close()
-                delay(1000)
-                val intent = Intent()
-                val bundle = Bundle()
-                bundle.putParcelable("FilePath", fileModel)
-                intent.putExtra("FilePath", bundle)
-                setResult(RESULT_OK, intent)
-                finish()
-                CustomProgressbar.hideProgressBar()
+                if (currentPhotoPath.isNotEmpty()){
+                    val filee = File(currentPhotoPath)
+                    fileModel = FileModel(
+                        filee.name,
+                        filee.path,
+                        filee.absolutePath,
+                        filee.name,
+                        0,
+                        filee
+                    )
+                    val fos = FileOutputStream(fileModel!!.file)
+                    fos.write(bitMapData)
+                    fos.flush()
+                    fos.close()
+                    delay(1000)
+                    val intent = Intent()
+                    val bundle = Bundle()
+                    bundle.putParcelable("FilePath", fileModel)
+                    intent.putExtra("FilePath", bundle)
+                    setResult(RESULT_OK, intent)
+                    finish()
+                    CustomProgressbar.hideProgressBar()
+                }else{
+                    println("error")
+                }
             }
         }
         dataBinding.btnCancel.setOnClickListener {
