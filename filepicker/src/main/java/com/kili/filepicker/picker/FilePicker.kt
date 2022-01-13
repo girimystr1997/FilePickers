@@ -72,6 +72,15 @@ class FilePicker : AppCompatActivity() {
                 val bos = ByteArrayOutputStream()
                 dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
                 val bitMapData: ByteArray = bos.toByteArray()
+                val filee = File(currentPhotoPath)
+                fileModel = FileModel(
+                    filee.name,
+                    filee.path,
+                    filee.absolutePath,
+                    filee.name,
+                    0,
+                    filee
+                )
                 val fos = FileOutputStream(fileModel.file)
                 fos.write(bitMapData)
                 fos.flush()
@@ -402,7 +411,6 @@ class FilePicker : AppCompatActivity() {
                         val uridata: Uri? = data.data
                         uridata.let { uri ->
                             if (uri != null) {
-                                createImageFile()
                                 val path = Func().getPath(this, uri)
                                 val filee = File(path!!)
                                 fileModel = FileModel(
@@ -419,12 +427,6 @@ class FilePicker : AppCompatActivity() {
                                         "$packageName.provider", filee
                                     )
                                 )
-                                /*val intent = Intent()
-                                val bundle = Bundle()
-                                bundle.putParcelable("FilePath",fileModel)
-                                intent.putExtra("FilePath",bundle)
-                                setResult(RESULT_OK,intent)
-                                finish()*/
                             }
                         }
                     }

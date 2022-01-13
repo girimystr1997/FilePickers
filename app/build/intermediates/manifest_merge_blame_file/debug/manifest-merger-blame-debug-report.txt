@@ -24,7 +24,7 @@
 14-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-77
 15
 16    <queries>
-16-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-26:15
+16-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-23:15
 17        <package android:name="com.kili.filepicker" />
 17-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-55
 17-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:18-52
@@ -35,94 +35,88 @@
 20-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-73
 20-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:21-70
 21        </intent>
-22        <intent>
-22-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:18
-23            <action android:name="android.intent.action.GET_CONTENT" />
-23-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-72
-23-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:21-69
-24        </intent>
-25    </queries>
-26
-27    <application
-27-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:6:5-23:19
-28        android:allowBackup="false"
-28-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:7:9-36
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.7.0] /home/tsslap22/.gradle/caches/transforms-3/d560c4a192d5cdf8e7cf8f3d0a64abaa/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-30        android:debuggable="true"
-31        android:extractNativeLibs="false"
-32        android:icon="@mipmap/ic_launcher"
-32-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:8:9-43
-33        android:label="@string/app_name"
-33-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:9:9-41
-34        android:requestLegacyExternalStorage="true"
-34-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:11:9-52
-35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:10:9-54
-36        android:supportsRtl="true"
-36-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:12:9-35
-37        android:testOnly="true"
-38        android:theme="@style/Theme.FilePicker" >
-38-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:13:9-48
-39        <activity
-39-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:14:9-22:20
-40            android:name="com.kili.filepick.MainActivity"
-40-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:15:13-58
-41            android:exported="true" >
-41-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:16:13-36
-42            <intent-filter>
-42-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:17:13-21:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:18:17-69
-43-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:18:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:20:17-77
-45-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:20:27-74
-46            </intent-filter>
-47        </activity>
-48        <activity android:name="com.kili.filepicker.picker.FilePicker" />
-48-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-74
-48-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:19-71
-49
-50        <provider
-50-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-39:20
-51            android:name="androidx.core.content.FileProvider"
-51-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-62
-52            android:authorities="com.kili.filepick.provider"
-52-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-60
-53            android:exported="false"
-53-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-37
-54            android:grantUriPermissions="true" >
-54-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-47
-55            <meta-data
-55-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-38:54
-56                android:name="android.support.FILE_PROVIDER_PATHS"
-56-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:17-67
-57                android:resource="@xml/file_paths" />
-57-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-51
-58        </provider>
-59        <provider
-59-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-60            android:name="androidx.startup.InitializationProvider"
-60-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-61            android:authorities="com.kili.filepick.androidx-startup"
-61-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-62            android:exported="false" >
-62-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+22    </queries>
+23
+24    <application
+24-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:6:5-22:19
+25        android:allowBackup="false"
+25-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:7:9-36
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.7.0] /home/tsslap22/.gradle/caches/transforms-3/d560c4a192d5cdf8e7cf8f3d0a64abaa/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:8:9-43
+30        android:label="@string/app_name"
+30-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:9:9-41
+31        android:requestLegacyExternalStorage="true"
+31-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:18-61
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:10:9-54
+33        android:supportsRtl="true"
+33-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:11:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.FilePicker" >
+35-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:12:9-48
+36        <activity
+36-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:13:9-21:20
+37            android:name="com.kili.filepick.MainActivity"
+37-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:14:13-58
+38            android:exported="true" >
+38-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:15:13-36
+39            <intent-filter>
+39-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:16:13-20:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:17:17-69
+40-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:17:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:19:17-77
+42-->/home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:19:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.kili.filepicker.picker.FilePicker" />
+45-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-74
+45-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:19-71
+46
+47        <provider
+47-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-36:20
+48            android:name="androidx.core.content.FileProvider"
+48-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-62
+49            android:authorities="com.kili.filepick.provider"
+49-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-60
+50            android:exported="false"
+50-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
+51            android:grantUriPermissions="true" >
+51-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-47
+52            <meta-data
+52-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-35:54
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:17-67
+54                android:resource="@xml/file_paths" />
+54-->[:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-51
+55        </provider>
+56        <provider
+56-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+58            android:authorities="com.kili.filepick.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 63            <meta-data
-63-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-64-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 65                android:value="androidx.startup" />
-65-->[androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-66            <meta-data
-66-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-67-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-68                android:value="androidx.startup" />
-68-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-69        </provider>
-70    </application>
-71
-72</manifest>
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>

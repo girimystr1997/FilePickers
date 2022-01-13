@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
-MERGED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-42:12
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-39:12
 MERGED from [androidx.databinding:databinding-adapters:7.0.4] /home/tsslap22/.gradle/caches/transforms-3/f46ed7b5d3a9f6a38a928f9d0096234e/transformed/databinding-adapters-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-ktx:7.0.4] /home/tsslap22/.gradle/caches/transforms-3/0cd1873a4902643e88113bbf3390bfca/transformed/jetified-databinding-ktx-7.0.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:7.0.4] /home/tsslap22/.gradle/caches/transforms-3/1812c71159a2164518988525c595e5d8/transformed/databinding-runtime-7.0.4/AndroidManifest.xml:17:1-22:12
@@ -53,27 +53,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tsslap22/.gradle/ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/3bd4315334d0d792350885865b61df50/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/b0c3538f8a3e62974740ae17328cfd4b/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/tsslap22/.gradle/caches/transforms-3/86e7cf17d3596e7fd7df02a88d8fd194/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:3:5-32
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-25:12
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:6:5-23:19
-MERGED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-40:19
-MERGED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-40:19
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:6:5-22:19
+MERGED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-37:19
+MERGED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.android.material:material:1.4.0] /home/tsslap22/.gradle/caches/transforms-3/f2549c9573ce9dbc59394446c4ad208f/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/tsslap22/.gradle/caches/transforms-3/f2549c9573ce9dbc59394446c4ad208f/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /home/tsslap22/.gradle/caches/transforms-3/12ad122fcedd50fdfa0d8b6da42b8d22/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
@@ -91,11 +91,11 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tssla
 MERGED from [androidx.startup:startup-runtime:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/56f1b197b2c0cd7adf49ea4348676204/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/56f1b197b2c0cd7adf49ea4348676204/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
 	android:requestLegacyExternalStorage
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:11:9-52
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:18-61
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /home/tsslap22/.gradle/caches/transforms-3/d560c4a192d5cdf8e7cf8f3d0a64abaa/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:11:9-35
 	android:label
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:9:9-41
 	android:roundIcon
@@ -105,23 +105,23 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /home/tsslap22/.gradle/cach
 	android:allowBackup
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:7:9-36
 	android:theme
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:13:9-48
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:12:9-48
 activity#com.kili.filepick.MainActivity
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:14:9-22:20
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:13:9-21:20
 	android:exported
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:16:13-36
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:15:13-36
 	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:15:13-58
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:14:13-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:17:13-21:29
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:18:17-69
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:18:25-66
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:20:17-77
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:20:27-74
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/app/src/main/AndroidManifest.xml
@@ -253,7 +253,7 @@ ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepi
 	android:name
 		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-77
 queries
-ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-26:15
+ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-23:15
 package#com.kili.filepicker
 ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-55
 	android:name
@@ -264,32 +264,26 @@ action#android.media.action.IMAGE_CAPTURE
 ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-73
 	android:name
 		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:21-70
-intent#action:name:android.intent.action.GET_CONTENT
-ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:18
-action#android.intent.action.GET_CONTENT
-ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-72
-	android:name
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:21-69
 activity#com.kili.filepicker.picker.FilePicker
-ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-74
+ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-74
 	android:name
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:19-71
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:19-71
 provider#androidx.core.content.FileProvider
-ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-39:20
+ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-36:20
 	android:grantUriPermissions
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-47
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-47
 	android:authorities
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-60
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-60
 	android:exported
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-37
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-62
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-38:54
+ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-35:54
 	android:resource
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-51
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-51
 	android:name
-		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:17-67
+		ADDED from [:filepicker] /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:17-67
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.0.0] /home/tsslap22/.gradle/caches/transforms-3/e5f3204ed666cf6cbbd0d89709d75173/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/tsslap22/.gradle/caches/transforms-3/3ea8427566ab1a3f6451290689722358/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20

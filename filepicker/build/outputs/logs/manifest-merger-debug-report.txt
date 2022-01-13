@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:4:5-34
 		INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/
 	android:name
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:10:22-77
 queries
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:12:5-20:15
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:12:5-17:15
 package#com.kili.filepicker
 ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:13:9-55
 	android:name
@@ -41,36 +41,30 @@ action#android.media.action.IMAGE_CAPTURE
 ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:15:13-73
 	android:name
 		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:15:21-70
-intent#action:name:android.intent.action.GET_CONTENT
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:17:9-19:18
-action#android.intent.action.GET_CONTENT
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:18:13-71
-	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:18:21-69
 application
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:22:5-34:19
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:19:5-31:19
 	android:requestLegacyExternalStorage
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:23:9-52
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:20:9-52
 activity#com.kili.filepicker.picker.FilePicker
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:24:9-54
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:21:9-54
 	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:24:19-52
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:21:19-52
 provider#androidx.core.content.FileProvider
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:22:9-30:20
 	android:grantUriPermissions
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:29:13-47
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:26:13-47
 	android:authorities
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:27:13-60
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:24:13-60
 	android:exported
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:28:13-37
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:26:13-62
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:23:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:30:13-32:54
+ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:27:13-29:54
 	android:resource
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:32:17-51
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:29:17-51
 	android:name
-		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:31:17-67
+		ADDED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml:28:17-67
 uses-sdk
 INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/tsslap22/AndroidStudioProjects/FilePickers/filepicker/src/main/AndroidManifest.xml
