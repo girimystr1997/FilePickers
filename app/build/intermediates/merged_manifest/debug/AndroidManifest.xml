@@ -34,6 +34,7 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.FilePicker" >
         <activity
             android:name="com.kili.filepick.MainActivity"

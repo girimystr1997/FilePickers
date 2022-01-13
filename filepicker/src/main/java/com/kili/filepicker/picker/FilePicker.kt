@@ -26,6 +26,10 @@ import com.kili.filepicker.func.CustomProgressbar
 import com.kili.filepicker.func.Func
 import com.kili.filepicker.models.FileModel
 import com.kili.filepicker.utils.Variables
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileOutputStream
@@ -62,22 +66,25 @@ class FilePicker : AppCompatActivity() {
         }
 
         dataBinding.btnOk.setOnClickListener {
-            CustomProgressbar.showProgressBar(this, false)
-            dataBinding.CropImageView.croppedImage
-            val bos = ByteArrayOutputStream()
-            dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
-            val bitMapData: ByteArray = bos.toByteArray()
-            val fos = FileOutputStream(fileModel.file)
-            fos.write(bitMapData)
-            fos.flush()
-            fos.close()
-            val intent = Intent()
-            val bundle = Bundle()
-            bundle.putParcelable("FilePath", fileModel)
-            intent.putExtra("FilePath", bundle)
-            setResult(RESULT_OK, intent)
-            finish()
-            CustomProgressbar.hideProgressBar()
+            CustomProgressbar.showProgressBar(this,false)
+            GlobalScope.launch(Dispatchers.IO) {
+                dataBinding.CropImageView.croppedImage
+                val bos = ByteArrayOutputStream()
+                dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
+                val bitMapData: ByteArray = bos.toByteArray()
+                val fos = FileOutputStream(fileModel.file)
+                fos.write(bitMapData)
+                fos.flush()
+                fos.close()
+                delay(1000)
+                val intent = Intent()
+                val bundle = Bundle()
+                bundle.putParcelable("FilePath", fileModel)
+                intent.putExtra("FilePath", bundle)
+                setResult(RESULT_OK, intent)
+                finish()
+                CustomProgressbar.hideProgressBar()
+            }
         }
         dataBinding.btnCancel.setOnClickListener {
             showBottomSheetDialog()
