@@ -11,8 +11,9 @@
         tools:ignore="QueryAllPackagesPermission" />
 
     <application
+        android:hardwareAccelerated="true"
         android:requestLegacyExternalStorage="true">
-        <activity android:name=".picker.FilePicker"/>
+        <activity android:hardwareAccelerated="false" android:name=".picker.FilePicker"/>
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
