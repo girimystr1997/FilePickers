@@ -9,12 +9,8 @@ import android.provider.DocumentsContract
 import android.provider.MediaStore
 import android.provider.OpenableColumns
 import com.kili.filepicker.models.FileModel
-
 import java.io.File
-import java.io.FileInputStream
 import java.io.FileOutputStream
-import java.io.IOException
-import java.nio.channels.FileChannel
 
 
 class Func {
@@ -118,7 +114,6 @@ class Func {
     private fun isMediaDocument(uri: Uri): Boolean {
         return "com.android.providers.media.documents" == uri.authority
     }
-
 
 
 }

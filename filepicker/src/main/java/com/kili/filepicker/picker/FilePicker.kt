@@ -12,7 +12,6 @@ import android.os.Environment
 import android.provider.MediaStore
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -43,7 +42,7 @@ class FilePicker : AppCompatActivity() {
 
     var currentPhotoPath: String = ""
     var currentVideoPath: String = ""
-    var fileModel: FileModel?=null
+    var fileModel: FileModel? = null
 
     private val permissions = arrayOf(
         Manifest.permission.CAMERA,
@@ -67,13 +66,13 @@ class FilePicker : AppCompatActivity() {
         }
 
         dataBinding.btnOk.setOnClickListener {
-            CustomProgressbar.showProgressBar(this,false)
+            CustomProgressbar.showProgressBar(this, false)
             GlobalScope.launch(Dispatchers.IO) {
                 dataBinding.CropImageView.croppedImage
                 val bos = ByteArrayOutputStream()
                 dataBinding.CropImageView.croppedImage.compress(CompressFormat.PNG, 0, bos)
                 val bitMapData: ByteArray = bos.toByteArray()
-                if (currentPhotoPath.isNotEmpty()){
+                if (currentPhotoPath.isNotEmpty()) {
                     val filee = File(currentPhotoPath)
                     fileModel = FileModel(
                         filee.name,
@@ -95,7 +94,7 @@ class FilePicker : AppCompatActivity() {
                     setResult(RESULT_OK, intent)
                     finish()
                     CustomProgressbar.hideProgressBar()
-                }else{
+                } else {
                     println("error")
                 }
             }
