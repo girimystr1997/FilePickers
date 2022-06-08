@@ -3,7 +3,7 @@ Android Library for the Files Selector.
 
 ###  build.gradle
 
-    implementation 'com.github.girimystr1997:FilePickers:v1.0.3'
+    implementation 'com.github.girimystr1997:FilePickers:v1.0.6'
 
 ### settings.gradle
 
